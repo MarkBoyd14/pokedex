@@ -9,8 +9,20 @@ export default function Cards({ loading, pokemonData, prev, next }) {
       ) : (
         <>
           <div className="btn">
-            <button onClick={prev}>Prev</button>
-            <button onClick={next}>Next</button>
+            <button onClick={prev}>
+              <i
+                class="fa fa-chevron-left"
+                style={{ marginRight: '5px', fontSize: '14px' }}
+              ></i>
+              Prev
+            </button>
+            <button onClick={next}>
+              Next{' '}
+              <i
+                class="fa fa-chevron-right"
+                style={{ marginLeft: '5px', fontSize: '14px' }}
+              ></i>
+            </button>
           </div>
           <div className="grid-container">
             {pokemonData.map((pokemon, i) => {

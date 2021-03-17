@@ -19,9 +19,17 @@
 .btn button {
   border-style: none;
   padding: 5px 10px;
-  margin-right: 10px;
   border-radius: 5px;
-  background: #30a7d7;
+  background: #3d7dca;
   color: #fff;
   font-size: 1em;
+}
+
+.btn button:hover {
+  cursor: pointer;
+  background: #5db9ff;
+}
+
+.btn button:first-child {
+  margin-right: 10px;
 }
