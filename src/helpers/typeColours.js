@@ -13,7 +13,7 @@ const typeColours = {
   ice: '#98D8D8',
   normal: '#A8A878',
   poison: '#A040A0',
-  pyschic: '#F85888',
+  psychic: '#F85888',
   rock: '#B8A038',
   steel: '#B8B8D0',
   water: '#6890F0',

@@ -13,7 +13,7 @@ function App() {
   const [nextUrl, setNextUrl] = useState('');
   const [prevUrl, setPrevUrl] = useState('');
   const [loading, setLoading] = useState(true);
-  const initialURL = 'https://pokeapi.co/api/v2/pokemon?limit=18&offset=18';
+  const initialURL = 'https://pokeapi.co/api/v2/pokemon?limit=18';
 
   useEffect(() => {
     async function fetchData() {
@@ -55,8 +55,6 @@ function App() {
     );
     setPokemonData(_pokemonData);
   };
-
-  const paginate = async () => {};
 
   return (
     <>
